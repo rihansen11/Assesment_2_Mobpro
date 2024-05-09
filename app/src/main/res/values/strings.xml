@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mobpro1</string>
+    <string name="list_kosong">Belum ada data</string>
+    <string name="x_diklik">%1$s diklik</string>
+    <string name="tambah_order">Tambah Order</string>
+    <string name="tambah_error">Belum bisa tambah order</string>
+    <string name="nama">Nama Mahasiswa</string>
+    <string name="nim">Nim Mahasiswa</string>
+    <string name="kelas">Kelas Mahasiswa</string>
+    <string name="reguler">Reguler (3 hari) Rp6.000</string>
+    <string name="express">Express (6 jam ) Rp15.000</string>
+    <string name="fast">Fast (3 jam) Rp20.000</string>
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+    <string name="edit_order">Ubah Order</string>
+    <string name="invalid">data tidak boleh kosong</string>
+    <string name="hapus">Hapus Order</string>
+    <string name="opsi_lainnya">Opsi Lainnya</string>
+    <string name="pesan_hapus">Hapus order ini?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="list">Tampilan list</string>
+    <string name="grid">Tampilan grid</string>
+
+
+
+
+</resources>
