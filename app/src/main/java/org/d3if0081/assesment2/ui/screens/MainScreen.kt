@@ -213,7 +213,7 @@ fun FormMahasiswa(
             value = desc,
             onValueChange = {onDescChange(it)},
             singleLine = true,
-            label = { Text(text = stringResource(id = R.string.nim))},
+            label = { Text(text = stringResource(id = R.string.jumlah_kiloan))},
             keyboardOptions = KeyboardOptions(
                 keyboardType = KeyboardType.Number,
                 imeAction = ImeAction.Done

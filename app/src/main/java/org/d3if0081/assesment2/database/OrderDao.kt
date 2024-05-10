@@ -18,7 +18,8 @@ interface OrderDao {
     @Update
     suspend fun update(order: Order)
 
-    @Query("SELECT * FROM `order` ORDER BY tanggal DESC")
+//    @Query("SELECT * FROM `order` ORDER BY tanggal DESC")
+    @Query("SELECT * FROM `order`")
     fun getOrder(): Flow<List<Order>>
 
     @Query("SELECT * FROM `order` WHERE id = :id")
