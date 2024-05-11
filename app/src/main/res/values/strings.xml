@@ -20,6 +20,11 @@
     <string name="tombol_batal">Batal</string>
     <string name="list">Tampilan list</string>
     <string name="grid">Tampilan grid</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">SimplyLaundry merupakan aplikasi android untuk membantu
+         para pelanggan laundry untuk melakukan proses barang apa saja yang
+        akan dilaundry.\n\n Aplikasi ini dibuat untuk Assesment2Mobpro 1.\n\nCopyright © 2024 Rihansen Purba.
+        \nAll rights reserved.</string>
 
 
 

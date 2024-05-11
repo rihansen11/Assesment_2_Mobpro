@@ -1,5 +1,6 @@
 package org.d3if0081.assesment2.ui.screen
 
+import android.content.res.Configuration
 import android.widget.Toast
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -42,9 +43,11 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import org.d3if0081.assesment2.R
 import org.d3if0081.assesment2.database.OrderDb
 import org.d3if0081.assesment2.ui.screens.DetailViewModel
@@ -94,12 +97,18 @@ fun DetailScreen(navController: NavHostController, id: Long?= null) {
                             tint = MaterialTheme.colorScheme.primary
                         )
                     }
+
+
+
                 },
                 title = {
+
                     if (id == null)
                         Text(text = stringResource(id = R.string.tambah_order))
                     else
                         Text(text = stringResource(id = R.string.edit_order))
+
+
 
                 },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
@@ -137,6 +146,8 @@ fun DetailScreen(navController: NavHostController, id: Long?= null) {
                     }
 
                 }
+
+
             )
         }
     ) { padding ->
@@ -257,4 +268,12 @@ fun KelasOption (label:String, isSelected: Boolean, modifier: Modifier ){
         )
     }
 }
+
+@Preview(showBackground = true)
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
+@Composable
+fun Previewwddd(){
+    DetailScreen(rememberNavController())
+}
+
 
